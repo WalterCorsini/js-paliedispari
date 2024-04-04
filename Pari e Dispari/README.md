@@ -13,11 +13,12 @@ Dichiariamo chi ha vinto.
 
 ## LOGICA
 3. controllo l'inseimento del numero se è da 1 a 5.
-    - se corretto salvo numero
-    - altrimenti lo richiedo (while)
-4. utilizzo una funzione che genera un numero random da 1 a 5e lo salvo in una variabile globale
+    - se corretto salvo numero.
+    - altrimenti lo richiedo (while).
+4. utilizzo una funzione che genera un numero random da 1 a 5e lo salvo in una variabile globale.
 5. sommo i due valori
 6. controllo tramite una funzione se il valore e pari o dispari.
 
 ## OUTPUT
-7. dichiariamo se ha vinto l'utente o il computer.
+6. controllo se l'utente ha scommetto pari o dispari e lo conronto con il risultato ottenuto.
+7. stampo a video se l'utente ha vinto o ha perso.
