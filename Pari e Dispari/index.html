@@ -1,16 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Palindroma</title>
-    <!-- style -->
-    <link rel="stylesheet" href="./css/style.css">
-</head>
-<body>
-    
-    <!-- script -->
-    <script src="./js/function.js"></script>
-    <script src="./js/script.js"></script>
-</body>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Palindroma</title>
+        <!-- style -->
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+    <body>
+
+        <form id="submit-form" action>
+            <label for="user-number">Scegli un numero da 1 a 5</label>
+            <input id="user-number" type="number" aria-label="user-number"
+                 max="5" min="1" value="1">
+            <label for="pari">pari</label>
+            <input id="pari" name="choice" type="radio" value="pari" checked required>
+            <label for="dispari">dispari</label>
+            <input id="dispari" name="choice" type="radio" value="dispari"
+                required>
+            <div>
+                <button id="submit-btn"> premi invio</button>
+                <button id="reset-btn"> reset</button>
+            </div>
+        </form>
+        <div id="result">
+        </div>
+        <!-- script -->
+        <script src="./js/function.js"></script>
+        <script src="./js/script.js"></script>
+    </body>
 </html>

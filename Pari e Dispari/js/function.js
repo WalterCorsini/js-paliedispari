@@ -18,6 +18,7 @@ function rndGenerator(min, max){
  * @returns {boolean}      // control result
  */
 function oddOrEven(number){
+    result = false;
     if(number % 2 === 0){
         result = true;
         return result;
@@ -25,4 +26,5 @@ function oddOrEven(number){
         result = false;
         return result;
     }
+    
 }
