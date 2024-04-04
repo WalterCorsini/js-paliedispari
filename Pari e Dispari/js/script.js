@@ -58,6 +58,3 @@ if (correct == true){
         console.log("hai perso");
     }
 }
-
-
-
