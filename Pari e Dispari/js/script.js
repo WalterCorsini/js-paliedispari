@@ -97,7 +97,7 @@ browserNum = rndGenerator(1,5);
 
 // sum user number and browser number and save inside of variable
 result = browserNum + userNum;
-// console.log(result);
+console.log(result);
 
 // use the function to know if the result is even or odd and save it in a variable
 correct = oddOrEven(result);
@@ -105,18 +105,13 @@ correct = oddOrEven(result);
 // OUTPUT
 // check the result of the last function and compare it with the bet made
 
-    if( bet == "pari" && correct == true){
+    if( bet == correct){
         const finalresult = `la somma dei due numeri è:${result},hai scommesso su ${bet}, e quindi hai vinto`;
         let resultElem = document.createElement("h2");
         resultElem = finalresult;
         divElem.append(resultElem);
-
-    } else if(bet == "dispari" && correct == false){
-        const finalresult = `la somma dei due numeri è:${result},hai scommesso su ${bet}, e quindi hai vinto`;
-        let resultElem = document.createElement("h2");
-        resultElem = finalresult;
-        divElem.append(resultElem);
-    } else {
+    }
+    else {
         const finalresult = `la somma dei due numeri è:${result},hai scommesso su ${bet}, e quindi hai perso`;
         let resultElem = document.createElement("h2");
         resultElem = finalresult;

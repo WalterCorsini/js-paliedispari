@@ -15,15 +15,15 @@ function rndGenerator(min, max){
  * Checking a number if it is even or odd
  *
  * @param {number} number  // number to check
- * @returns {boolean}      // control result
+ * @returns {string}      // control result
  */
 function oddOrEven(number){
-    result = false;
+    let result = "";
     if(number % 2 === 0){
-        result = true;
+        result = "pari";
         return result;
     } else {
-        result = false;
+        result = "dispari";
         return result;
     }
     
